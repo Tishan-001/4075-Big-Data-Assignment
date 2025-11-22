@@ -22,7 +22,7 @@ Producer → Kafka (orders topic) → Consumer
 
 ## 📦 Prerequisites
 
-- **Java 11** or higher
+- **Java 21**
 - **Maven 3.6+**
 - **Docker** and **Docker Compose**
 
@@ -145,16 +145,6 @@ Stop the producer and consumer with `Ctrl+C`, then:
 ```bash
 docker-compose down
 ```
-
-## 📝 Assignment Requirements
-
-- [x] Kafka-based system with order messages
-- [x] Avro serialization
-- [x] Real-time aggregation (running average)
-- [x] Retry logic for temporary failures
-- [x] Dead Letter Queue for permanent failures
-- [x] Live demonstration capability
-- [x] Git repository
 
 ## 🎯 Key Concepts Demonstrated
 
